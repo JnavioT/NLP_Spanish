@@ -83,6 +83,39 @@ Translation English Spanish:![Optional Text](images/tr_st.png)
 
 Summarization:![Optional Text](images/su_st.png)
 
+## 📝 Citation
+If you want to cite this code for your research , please cite my paper:
+```
+ @article{jnavio , 
+ title={Intelligent Question Answering System with NLP and
+AI techniques for Spanish texts}, 
+ author={Navío Torres, José Navío},
+ year={2021}} 
+```
+If you find BETO model useful , please cite this paper:
+```
+@inproceedings{beto,
+  title={Spanish Pre-Trained BERT Model and Evaluation Data},
+  author={Cañete, José and Chaperon, Gabriel and Fuentes, Rodrigo and Ho, Jou-Hui and Kang, Hojin and Pérez, Jorge},
+  booktitle={PML4DC at ICLR 2020},
+  year={2020}
+}
+
+```
+If you find HuggingFace libraries useful , please cite this paper:
+```
+@inproceedings{huggingface,
+    title = "Transformers: State-of-the-Art Natural Language Processing",
+    author = "Thomas Wolf and Lysandre Debut and Victor Sanh and Julien Chaumond and Clement Delangue and Anthony Moi and Pierric Cistac and Tim Rault and Rémi Louf and Morgan Funtowicz and Joe Davison and Sam Shleifer and Patrick von Platen and Clara Ma and Yacine Jernite and Julien Plu and Canwen Xu and Teven Le Scao and Sylvain Gugger and Mariama Drame and Quentin Lhoest and Alexander M. Rush",
+    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing: System Demonstrations",
+    month = oct,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.emnlp-demos.6",
+    pages = "38--45"
+}
+```
 
 ## 👨‍💻 Maintainers
 * Jose Navío, Github: [JnavioT](https://github.com/JnavioT/) Email: jnavio@uni.pe
