@@ -2,20 +2,20 @@
 import streamlit as st
 
 import src.components.home
-import src.models.question_answering
-import src.models.sent_analysis
-import src.models.masked
-import src.models.translation
-import src.models.summ
+#import src.models.question_answering
+#import src.models.sent_analysis
+#import src.models.masked
+#import src.models.translation
+#import src.models.summ
 
 
 PAGES = {
     "Home": src.components.home,
-    "Preguntas y Respuestas": src.models.question_answering,
-    "Analisis de Sentimientos": src.models.sent_analysis,
-    "Texto Autocompletado": src.models.masked,
-    "Traducción (inglés a español)": src.models.translation,
-    "Sumarización": src.models.summ,
+    #"Preguntas y Respuestas": src.models.question_answering,
+    #"Analisis de Sentimientos": src.models.sent_analysis,
+    #"Texto Autocompletado": src.models.masked,
+    #"Traducción (inglés a español)": src.models.translation,
+    #"Sumarización": src.models.summ,
 
     #"Generación de Texto": pages.gen_text
 }

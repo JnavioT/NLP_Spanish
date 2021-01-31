@@ -4,10 +4,9 @@ from .fetch import *
 
 def main():
 	front_up()
-	#fetch.front_up()
 	st.markdown("""
             Esta es una App de Procesamiento de Lenguaje Natural (NLP) util para diversas 
-            tareas de NLP implementada usando APIs de NLP sobre el Framework Streamlit
+            tareas de NLP en español implementada con APIs de la la libería de HuggingFace 🤗 sobre el Framework Streamlit.
 			""")
 
 	st.header('Aplicaciones')
