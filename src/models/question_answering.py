@@ -19,11 +19,11 @@ def get_answer(question,context):
 def main():
     front_up()
     st.title('Sistema Inteligente de Preguntas y Respuestas usando el modelo de BETO destilado')
-    context  = st.text_area(label="Ingrese el texto a analizar")
+    context  = st.text_area(label="Ingrese el texto a analizar", height=320)
     question  = st.text_area(label="Ingrese pregunta sobre el texto")
     if st.button("Cargar modelo"):
         answer_qa = get_answer(question,context)
-        print (answer_qa)
+        #print (answer_qa)
         st.text("La respuesta del Sistema es:")
         st.write(answer_qa)
 

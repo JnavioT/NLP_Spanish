@@ -73,15 +73,15 @@ streamlit run main.py
 
 Below there are screenshots from app:
 
-Question Answering:![Optional Text](images/qa_st.png)
+Question Answering:![Optional Text](images/QA_str.png)
 
-Sentiment Analysis:![Optional Text](images/as_st.png)
+Sentiment Analysis:![Optional Text](images/SA_str.png)
 
-Text Autocompleted:![Optional Text](images/ta_st.png)
+Text Autocompleted:![Optional Text](images/TA_str.png)
 
-Translation English Spanish:![Optional Text](images/tr_st.png)
+Translation English Spanish:![Optional Text](images/TR_str.png)
 
-Summarization:![Optional Text](images/su_st.png)
+Summarization:![Optional Text](images/SUMM_str.png)
 
 ## 📝 Citation
 If you want to cite this code for your research , please cite my paper:

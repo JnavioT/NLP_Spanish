@@ -21,7 +21,7 @@ def get_answer(text):
 def main():
     front_up()
     st.title('Sistema de Sumarizacion de texto')
-    context  = st.text_area(label="Ingrese el texto a resumir")
+    context  = st.text_area(label="Ingrese el texto a resumir", height=320)
     if st.button("Cargar modelo"):
         context2 = get_answer_es_en(context)
         answer_summ = get_answer(context2)

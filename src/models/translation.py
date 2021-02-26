@@ -34,7 +34,7 @@ def get_answer_es_en(text):
 def main():
     front_up()
     st.title('Sistema de Traducción Automatica (Inglés a Español)')
-    context  = st.text_area(label="Ingrese el texto a traducir")
+    context  = st.text_area(label="Ingrese el texto a traducir", height=280)
     if st.button("Cargar modelo"):
         answer_tr= get_answer_en_es(context)
         st.text("El texto en español es:")
